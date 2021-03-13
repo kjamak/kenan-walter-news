@@ -1,0 +1,56 @@
+.articlecard {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  -webkit-box-shadow: 3px 0px 24px -8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 0px 24px -8px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 0px 24px -8px rgba(0, 0, 0, 0.1);
+}
+
+.articlecard__image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.articlecard > h4 {
+  font-weight: 600;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.articlecard > p {
+  padding-left: 15px;
+  padding-right: 15px;
+  flex: 1;
+}
+
+.articlecard > button {
+  background-color: #1ececb;
+  border: none;
+  height: 40px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.articlecard > button:hover {
+  background-color: white;
+  color: #1ececb;
+  border: 2px solid #1ececb;
+}
+
+@media screen and (min-width: 768px) {
+  .articlecard {
+    height: 550px;
+  }
+}
